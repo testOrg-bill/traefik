@@ -6,7 +6,7 @@ env:
 jobs:
 
   build-webui:
-    runs-on: ubuntu-latest
+    runs-on: monkci-ubuntu-24.04-4
     timeout-minutes: 20
 
     steps:

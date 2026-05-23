@@ -7,7 +7,7 @@ jobs:
   build-webui:
     uses: ./.github/workflows/template-webui.yaml
   build:
-    runs-on: monkci-ubuntu-24.04-4
+    runs-on: ubuntu-latest
     timeout-minutes: 20
     strategy:
       matrix:

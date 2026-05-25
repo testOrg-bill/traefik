@@ -60,9 +60,9 @@ jobs:
       with:
         name: webui.tar.gz
     - name: Untar webui
-      run: 'tar xvf webui.tar.gz
+      run: |
+        tar xvf webui.tar.gz
         rm webui.tar.gz
-        '
     - name: Build
       env:
         GOOS: ${{ matrix.os }}
